@@ -8,6 +8,8 @@
  */
 package ejemplosrepaso;
 
+import java.util.Scanner;
+
 
 public class Ejemplo01 {
 
