@@ -40,9 +40,9 @@ public class Ejemplo07 {
         String cadena01 = "";
         for (int i = 1; i <= 5; i++) {
             operacion01 = tabla + i;
-            operacion02 = tabla * i;
             cadena01 = String.format("%s%d + %d = %d\n", cadena01, 
                     tabla, i, operacion01);
+             operacion02 = tabla * i;
             cadena01 = String.format("%s%d * %d = %d\n", cadena01, 
                     tabla, i, operacion02);
         }

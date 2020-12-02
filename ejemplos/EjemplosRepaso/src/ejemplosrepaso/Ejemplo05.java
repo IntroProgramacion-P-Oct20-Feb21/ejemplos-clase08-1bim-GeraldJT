@@ -32,7 +32,7 @@ public class Ejemplo05 {
             cambio= entrada.nextLine();
             cambio = cambio.toUpperCase();
             
-            if (cambio.equals("SI")) || (cambio.equals("S")){
+            if (cambio.equals("SI") || cambio.equals("S")){
                 bandera = false;
             }
             
