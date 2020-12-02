@@ -28,11 +28,11 @@ public class Ejemplo05 {
         String cambio = "";
         while (bandera) {
             System.out.println("Usted está en el ciclo");
-            System.out.println("Ingrese Si, si quiere salir del ciclo");
+            System.out.println("Ingrese 'Si' o 'S' si quiere salir del ciclo");
             cambio= entrada.nextLine();
             cambio = cambio.toUpperCase();
             
-            if (cambio.equals("SI")){
+            if (cambio.equals("SI")) || (cambio.equals("S")){
                 bandera = false;
             }
             

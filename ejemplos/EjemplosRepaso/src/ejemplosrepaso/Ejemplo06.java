@@ -1,4 +1,4 @@
-/*
+/*+
     El siguiente programa muestra de forma infinita la frase: 1
     Modificar el código para obtener la secuencia
     1
@@ -17,6 +17,7 @@ public class Ejemplo06 {
         int contador = 1;
         do {
             System.out.printf("%d\n", contador);
+            contador= contador+4; 
 
         } while (contador <= 10);
 
