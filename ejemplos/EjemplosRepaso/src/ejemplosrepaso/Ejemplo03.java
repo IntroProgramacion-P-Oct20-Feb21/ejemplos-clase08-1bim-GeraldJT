@@ -32,21 +32,26 @@ public class Ejemplo03 {
         
         if(tipoRegion==1){
             region = "Región Sierra";
+            System.out.printf("Usted seleccionó: %s\n", region);
         }else{
             if (tipoRegion==2) {
                 region = "Región Costa";
+                System.out.printf("Usted seleccionó: %s\n", region);
             }else{
                 if (tipoRegion==3) {
                     region = "Región Amazónica";
+                    System.out.printf("Usted seleccionó: %s\n", region);
                 }else{
                     if (tipoRegion==4) {
                         region = "Región Insular";
+                        System.out.printf("Usted seleccionó: %s\n", region);
+                    }else{
+                        System.out.println("Error, no existe región");
                     }
                 }
             }
         }
         
-        System.out.printf("Usted seleccionó: %s\n", region);
     }
     
 }
